@@ -1,1 +1,252 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap');
+
+*,
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.tictac-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.tictac-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.tictac-cell {
+  height: 200px;
+  width: 200px;
+  background-position: center;
+  background-size: cover;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+.question-mark {
+  background-image: url('./assets/question_mark.png');
+}
+
+.question-sentence {
+  width: 98%;
+}
+
+.good-answer {
+  background-image: url('./assets/o_icon.png');
+}
+
+.bad-answer {
+  background-image: url('./assets/x_icon.png');
+}
+
+.bad-answer:hover,
+.good-answer:hover {
+  cursor: default !important;
+  filter: none !important;
+}
+
+.alert {
+  text-align: center;
+  padding: 5px;
+  background-color: #fbb2b2;
+  color: #900000;
+}
+
+.tictac-cell:hover {
+  cursor: pointer;
+  filter: invert(1);
+}
+
+.custom-modal {
+  display: none;
+  padding: 15px;
+  border-radius: 10px;
+  position: fixed;
+  z-index: 2;
+  background-color: white;
+  width: 500px;
+  left: 33%;
+  margin-top: 30px;
+}
+
+.close-modal {
+  position: absolute;
+  right: 0px;
+  margin: 0px 20px;
+  background-image: url(./assets/close.svg);
+  background-position: center;
+  background-size: cover;
+  height: 15px;
+  width: 15px;
+}
+
+.close-modal:hover {
+  cursor: pointer;
+}
+
+.center {
+  text-align: center;
+}
+
+.modal-actions {
+  margin: 10px 0px;
+}
+
+.modal-actions button {
+  padding: 5px 15px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.modal-actions button:hover {
+  cursor: pointer;
+  background-color: rgb(34, 41, 107);
+}
+
+.block-page {
+  display: none;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.562);
+  z-index: 1;
+  position: absolute;
+  position: fixed;
+}
+
+.selected-answer {
+  background-color: rgb(34, 41, 107);
+  color: white;
+}
+
+.option-select:hover {
+  cursor: pointer;
+  background-color: rgb(34, 41, 107);
+  color: white;
+  transition: background-color 0.5s linear;
+}
+
+.text-status {
+  text-align: center;
+}
+
+.status-container {
+  height: 100px;
+  width: 100px;
+  background-position: center;
+  background-size: cover;
+  text-align: ce;
+  margin: 0 auto;
+}
+
+.winner {
+  background-image: url(./assets/winner.svg);
+
+}
+
+.loser {
+  background-image: url(./assets/loser.svg);
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1900px) {
+  .tictac-container {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width:1050px) {
+  .tictac-container {
+    width: 60%;
+  }
+
+  .custom-modal {
+    left: 26%;
+  }
+}
+
+@media screen and (max-width:960px) {
+  .tictac-container {
+    width: 80%;
+  }
+
+  .custom-modal {
+    left: 23%;
+  }
+}
+
+@media screen and (max-width:814px) {
+  .custom-modal {
+    left: 19%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .tictac-container {
+    width: 80%;
+  }
+
+  .custom-modal {
+    left: 18%;
+  }
+}
+
+@media screen and (max-width:736px) {
+  .tictac-container {
+    width: 90%;
+  }
+
+  .custom-modal {
+    left: 16%;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .tictac-container {
+    width: 90%;
+  }
+
+  .tictac-cell {
+    height: 150px;
+    width: 150px;
+  }
+
+  .custom-modal {
+    left: 8%;
+  }
+}
+
+@media screen and (max-width:415px) {
+  .tictac-container {
+    width: 90%;
+  }
+
+  .tictac-cell {
+    height: 100px;
+    width: 100px;
+  }
+
+  .custom-modal {
+    width: 100%;
+  }
+
+  .custom-modal {
+    left: 0px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .tictac-container {
+    width: 100%;
+  }
+}

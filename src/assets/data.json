@@ -1,0 +1,290 @@
+[{
+    "sentence": "What is the capital of USA ?",
+    "options": [{
+      "id": "A",
+      "text": "Washington DC"
+    },
+    {
+      "id": "B",
+      "text": "New York"
+    },
+    {
+      "id": "C",
+      "text": "Texas"
+    }
+    ],
+    "correctAnswer": "Washington DC"
+  },
+  {
+    "sentence": "What year did the Spanish Civil War end ?",
+    "options": [{
+      "id": "A",
+      "text": "1937"
+    },
+    {
+      "id": "B",
+      "text": "1939"
+    },
+    {
+      "id": "C",
+      "text": "1935"
+    }
+    ],
+    "correctAnswer": "1939"
+  },
+  {
+    "sentence": "Which is the only mammal that can’t jump ?",
+    "options": [{
+      "id": "A",
+      "text": "Elephant"
+    },
+    {
+      "id": "B",
+      "text": "Crocodile"
+    },
+    {
+      "id": "C",
+      "text": "Lion"
+    }
+    ],
+    "correctAnswer": "Elephant"
+  },
+  {
+    "sentence": "What colour is a panda ?",
+    "options": [{
+      "id": "A",
+      "text": "Black"
+    },
+    {
+      "id": "B",
+      "text": "White"
+    },
+    {
+      "id": "C",
+      "text": "Black and White"
+    }
+    ],
+    "correctAnswer": "Black and White"
+  },
+  {
+    "sentence": "Name the seventh planet from the sun ?",
+    "options": [{
+      "id": "A",
+      "text": "Earth"
+    },
+    {
+      "id": "B",
+      "text": "Uranus"
+    },
+    {
+      "id": "C",
+      "text": "Mars"
+    }
+    ],
+    "correctAnswer": "Uranus"
+  },
+  {
+    "sentence": "What is the world's longest river ?",
+    "options": [{
+      "id": "A",
+      "text": "Missisipi"
+    },
+    {
+      "id": "B",
+      "text": "Reventazon"
+    },
+    {
+      "id": "C",
+      "text": "Amazon"
+    }
+    ],
+    "correctAnswer": "Amazon"
+  },
+  {
+    "sentence": "What is the capital city of Spain ?",
+    "options": [{
+      "id": "A",
+      "text": "Barcelona"
+    },
+    {
+      "id": "B",
+      "text": "Madrid"
+    },
+    {
+      "id": "C",
+      "text": "Roma"
+    }
+    ],
+    "correctAnswer": "Madrid"
+  },
+  {
+    "sentence": "What colour jersey is worn by the winners of each stage of the Tour De France ?",
+    "options": [{
+      "id": "A",
+      "text": "Pink"
+    },
+    {
+      "id": "B",
+      "text": "Blue"
+    },
+    {
+      "id": "C",
+      "text": "Yellow"
+    }
+    ],
+    "correctAnswer": "Yellow"
+  },
+  {
+    "sentence": "When did the Cold War end ?",
+    "options": [{
+      "id": "A",
+      "text": "1989"
+    },
+    {
+      "id": "B",
+      "text": "1990"
+    },
+    {
+      "id": "C",
+      "text": "1987"
+    }
+    ],
+    "correctAnswer": "1989"
+  },
+  {
+    "sentence": "Name the school that Harry Potter attended ?",
+    "options": [{
+      "id": "A",
+      "text": "Hogwarts"
+    },
+    {
+      "id": "B",
+      "text": "Harvard"
+    },
+    {
+      "id": "C",
+      "text": "Stanford"
+    }
+    ],
+    "correctAnswer": "Hogwarts"
+  },
+  {
+    "sentence": "Which country is home to the kangaroo ?",
+    "options": [{
+      "id": "A",
+      "text": "New Zeland"
+    },
+    {
+      "id": "B",
+      "text": "Africa"
+    },
+    {
+      "id": "C",
+      "text": "Australia"
+    }
+    ],
+    "correctAnswer": "Australia"
+  },
+  {
+    "sentence": "How many colours are in a rainbow ?",
+    "options": [{
+      "id": "A",
+      "text": "7"
+    },
+    {
+      "id": "B",
+      "text": "5"
+    },
+    {
+      "id": "C",
+      "text": "9"
+    }
+    ],
+    "correctAnswer": "7"
+  },
+  {
+    "sentence": "Which is the largest city in Wales ?",
+    "options": [{
+      "id": "A",
+      "text": "Cardiff"
+    },
+    {
+      "id": "B",
+      "text": "London"
+    },
+    {
+      "id": "C",
+      "text": "Moscow"
+    }
+    ],
+    "correctAnswer": "Cardiff"
+  },
+  {
+    "sentence": "How many years are there in a millennium ?",
+    "options": [{
+      "id": "A",
+      "text": "10000"
+    },
+    {
+      "id": "B",
+      "text": "1000"
+    },
+    {
+      "id": "C",
+      "text": "100"
+    }
+    ],
+    "correctAnswer": "1000"
+  },
+  {
+    "sentence": "How many continents are in the world ?",
+    "options": [{
+        "id": "A",
+        "text": "7"
+      },
+      {
+        "id": "B",
+        "text": "8"
+      },
+      {
+        "id": "C",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": "7"
+  },
+  {
+    "sentence": "What color is the sky ?",
+    "options": [{
+        "id": "A",
+        "text": "Blue"
+      },
+      {
+        "id": "B",
+        "text": "Orange"
+      },
+      {
+        "id": "C",
+        "text": "White"
+      }
+    ],
+    "correctAnswer": "Blue"
+  },
+  {
+    "sentence": "Who is Ginni Rometty ?",
+    "options": [{
+        "id": "A",
+        "text": "IBM CEO"
+      },
+      {
+        "id": "B",
+        "text": "Microsoft CEO"
+      },
+      {
+        "id": "C",
+        "text": "Apple CEO"
+      }
+    ],
+    "correctAnswer": "IBM CEO"
+  }
+  ]
